@@ -20,6 +20,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  box-shadow: 1px 1px 6px hwb(0 46% 54% / 0.795);
   transition: all .2s ease-in-out;
 }
 .boton-warning:hover {
@@ -54,12 +55,12 @@ body {
   color: #E6A43B;
 }
 .mensaje {
-  background-color: #E6A43B;
+  background: linear-gradient(90deg, rgba(255,200,69,1) 0%, rgba(230,164,59,1) 100%);
   border-radius: 0 10px 30px 0;
   padding: 40px 20px;
   margin-right: 20%;
   text-align: center;
-  color: #fff;
+  color: #202020;
   margin-bottom: 30px;
 }
 
